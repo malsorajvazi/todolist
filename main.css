@@ -182,8 +182,6 @@ input:checked ~ .bubble::after {
     border-radius: 0.5rem;
     box-shadow: var(--shadow);
     margin-bottom: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .todo-item label {
@@ -194,6 +192,10 @@ input:checked ~ .bubble::after {
 
 .todo-item .todo-content {
     flex: 1 1 0%;
+}
+
+.todo-content {
+    max-width: 190px;
 }
 
 .todo-item .todo-content input {
