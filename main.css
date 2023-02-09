@@ -183,6 +183,7 @@ input:checked ~ .bubble::after {
     box-shadow: var(--shadow);
     margin-bottom: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .todo-item label {
